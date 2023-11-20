@@ -1,0 +1,191 @@
+/* Helper Start */
+/* * {
+    border: solid;
+} */
+/* Helper End */
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    /* padding: 0 50px; */
+}
+
+.header-inner {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 80px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.links-left {
+    margin-right: auto;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    max-width: 400px;
+
+}
+
+.hero-text {
+    flex-basis: 50%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0;
+
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 16px 32px 16px 0px;
+    margin: 0;
+}
+
+.hero-img {
+    flex-basis: 50%;
+    padding: 16px 0px 16px 32px;
+}
+
+.hero-inner {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.caroussel-inner {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+.hero {
+    padding-bottom: 80px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #E5E7EB;
+    padding: 4px 24px;
+}
+
+.box {
+    border: #3882F6 solid;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.caroussel {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.caroussel-item {
+    width: 100px;
+    text-align: center;
+}
+
+.caroussel-title {
+    align-self: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 30px 0px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 40px 0px;
+}
+
+.quote-inner {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
+
+.cta-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 40px 30px;
+    gap: 60px;
+    border-radius: 5px;
+}
+.cta button {
+    border-color: #F9FAF8;
+}
+
+.cta h2 {
+    padding: 0px;
+    margin: 0;
+}
+.cta p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.cta {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.footer {
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px 0px;
+}
